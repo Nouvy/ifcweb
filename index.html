@@ -14,16 +14,16 @@
                 <div>
                     <a href="index.html" class="nav_logo">Portfolio</a>
                 </div>
-                <div class="nav_menu">
+                <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">
                         <li class="nav_item"><a href="#" class="nav_link active-link">Accueil</a></li>
                         <li class="nav_item"><a href="#a-propos" class="nav_link">A Propos</a></li>
-                        <li class="nav_item"><a href="" class="nav_link">Compétences</a></li>
-                        <li class="nav_item"><a href="" class="nav_link">Expérience</a></li>
-                        <li class="nav_item"><a href="" class="nav_link">Contact</a></li>
+                        <li class="nav_item"><a href="#competences" class="nav_link">Compétences</a></li>
+                        <li class="nav_item"><a href="#experience" class="nav_link">Expérience</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                     </ul>
                 </div>
-                <div class="nav_toggle">
+                <div class="nav_toggle" id="nav-toggle">
                     <i class="bx bx-menu"></i>
                 </div>
             </nav>
@@ -119,6 +119,78 @@
                     </div>
                 </div>
             </section>
+
+            <section class="skills section" id="experience">
+                <h2 class="section-title">Expérience</h2>
+                <div class="skills__container grid">
+                    <div>
+                        <img class="skills_img" src="assets/img/competences.svg">
+                    </div>
+                    <div>
+                        <h2 class="skills__subtitle">Expérience Pro</h2>
+                        <p class="skills__text">Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio</p>
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_experience">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-skype skills__icon"></i>
+                                <span class="skills__name">Skype</span>
+                            </div>
+                            <div class="skills__bar skills_experience">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_experience">
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_experience">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container grid">
+                    <form class="contact__form" action="https://usebasin.com/f/ce7e9f88a43f" method="POST" enctype="multipart/form-data" id="form">
+                        <input type="text" placeholder="Nom Prénom" name="nom" class="contact__input" required>
+                        <input type="email" placeholder="Email" name="email" class="contact__input" required>
+                        <textarea placeholder="Message" name="message" class="contact__input" required></textarea>
+                        <button type="submit" class="contact__button button">Envoyer</button>
+                    </form>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p class="footer__title">Julie</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <p class="footer__copy">&#169; Julie. Tous droits réservés.</p>
+            </footer>
         </main>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

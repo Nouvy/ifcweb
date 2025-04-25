@@ -311,6 +311,9 @@ img {
 .skills_skype {
     width: 95%;
 }
+.skills_experience {
+  width: 100%;
+}
 
 /* ===== WORK =====*/
 .work__container {
