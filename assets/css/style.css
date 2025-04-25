@@ -8,7 +8,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --first-color: #f04e4e;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -123,7 +123,7 @@ img {
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 767px) {
-  .nav__menu {
+  .nav_menu {
     position: fixed;
     top: var(--header-height);
     right: -100%;
@@ -134,17 +134,17 @@ img {
     transition: 0.5s;
   }
 }
-.nav__item {
+.nav_item {
   margin-bottom: var(--mb-4);
 }
-.nav__link {
+.nav_link {
   position: relative;
   color: #fff;
 }
-.nav__link:hover {
+.nav_link:hover {
   position: relative;
 }
-.nav__link:hover::after {
+.nav_link:hover::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -153,10 +153,10 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
-.nav__logo {
+.nav_logo {
   color: var(--second-color);
 }
-.nav__toggle {
+.nav_toggle {
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
@@ -305,6 +305,12 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
+.skills_adobe {
+    width: 80%;
+}
+.skills_skype {
+    width: 95%;
+}
 
 /* ===== WORK =====*/
 .work__container {
@@ -371,7 +377,7 @@ img {
   .home {
     row-gap: 2rem;
   }
-  .home__img {
+  .home_img {
     width: 200px;
   }
 }
@@ -389,7 +395,7 @@ img {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img {
+  .home_img {
     width: 300px;
     bottom: 25%;
   }

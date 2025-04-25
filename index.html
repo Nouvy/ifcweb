@@ -12,16 +12,19 @@
         <header class="l-header">
             <nav class="nav grid">
                 <div>
-                    <a href="index.html">Portfolio</a>
+                    <a href="index.html" class="nav_logo">Portfolio</a>
                 </div>
                 <div class="nav_menu">
                     <ul class="nav_list">
-                        <li class="nav_item"><a href="">Accueil</a></li>
-                        <li class="nav_item"><a href="">A Propos</a></li>
-                        <li class="nav_item"><a href="">Compétences</a></li>
-                        <li class="nav_item"><a href="">Expérience</a></li>
-                        <li class="nav_item"><a href="">Contact</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link active-link">Accueil</a></li>
+                        <li class="nav_item"><a href="#a-propos" class="nav_link">A Propos</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Compétences</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Expérience</a></li>
+                        <li class="nav_item"><a href="" class="nav_link">Contact</a></li>
                     </ul>
+                </div>
+                <div class="nav_toggle">
+                    <i class="bx bx-menu"></i>
                 </div>
             </nav>
         </header>
@@ -29,7 +32,7 @@
         <main>
             <section class="accueil grid" id="accueil">
                 <div class="accueil_data">
-                    <h1 class="accueil_title">Mon Portfolio</h1>
+                    <h1 class="accueil_title">Hello,<br>Julie</h1>
 
                     <a href="" class="button">Contact</a>
                 </div>
@@ -38,57 +41,84 @@
                     <a href=""><i class="bx bxl-linkedin"></i></a>
                 </div>
 
-                <div>
-                    <img src="assets/img/portfolio.svg" alt="">
+                <div class="accueil_img">
+                    <img class="accueil_blob" src="assets/img/portfolio.svg" alt="">
                 </div>
             </section>
 
-            <section id="a-propos">
-                <h2>A Propos</h2>
-                <div>
-                    <img src="">
-                </div>
-
-                <div>
-                    <h2>Fabrice</h2>
-                    <p>Desciption du portfolio</p>
-                </div>
-            </section>
-
-            <section id="competences">
-                <h2>Compétences</h2>
-                <div>
+            <section class="about section" id="a-propos">
+                <h2 class="section-title">A Propos</h2>
+                <div class="about__container grid">
+                    <div class="about__img">
+                        <img src="assets/img/a-propos.svg">
+                    </div>
+    
                     <div>
-                        
+                        <h2 class="about__subtitle">Je m'appelle Julie</h2>
+                        <p class="about__text"> Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills section" id="competences">
+                <h2 class="section-title">Compétences</h2>
+                <div class="skills__container grid">
+                    <div>
+                        <h2 class="skills__subtitle">Compétences Pro</h2>
+                        <p class="skills__text">Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio Desciption du portfolio</p>
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_adobe">
+                            </div>
+                            <div>
+                                <span class="skills_percentage">80%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-skype skills__icon"></i>
+                                <span class="skills__name">Skype</span>
+                            </div>
+                            <div class="skills__bar skills_skype">
+                            </div>
+                            <div>
+                                <span class="skills_percentage">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_adobe">
+                            </div>
+                            <div>
+                                <span class="skills_percentage">80%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__name">
+                                <i class="bx bxl-adobe skills__icon"></i>
+                                <span class="skills__name">Suite Adobe</span>
+                            </div>
+                            <div class="skills__bar skills_adobe">
+                            </div>
+                            <div>
+                                <span class="skills_percentage">80%</span>
+                            </div>
+                        </div>
                     </div>
                     <div>
-
+                        <img class="skills_img" src="assets/img/competences.svg">
                     </div>
                 </div>
             </section>
         </main>
-
-        
-        <h2>Titre 2</h2>
-        <a href="https://www.ifc.fr">Site IFC</a>
-        <table>
-            <thead>
-                <th>Prénom</th>
-                <th>Nom</th>
-                <th>Email</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Fabrice</td>
-                    <td>COMMEAT</td>
-                    <td>contact@nouvy-agency.fr</td>
-                </tr>
-                <tr>
-                    <td>Fabrice</td>
-                    <td>COMMEAT</td>
-                    <td>contact@nouvy-agency.fr</td>
-                </tr>
-            </tbody>
-        </table>
     </body>
 </html>
